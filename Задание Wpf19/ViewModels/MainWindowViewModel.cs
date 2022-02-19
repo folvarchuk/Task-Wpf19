@@ -36,6 +36,7 @@ namespace Задание_Wpf19.ViewModels
             set
             {
                 result = value;
+                OnPropertyChanged();
             }
         }
         
